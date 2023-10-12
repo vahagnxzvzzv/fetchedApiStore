@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { NavLink, Route, Routes } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import Products from './Components/Products/Products';
+import RoutePaths from './Components/RoutePaths/RoutePaths';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RoutePaths />
+      {/* <NavLink to={'/products'} >Products</NavLink> */}
     </div>
   );
 }

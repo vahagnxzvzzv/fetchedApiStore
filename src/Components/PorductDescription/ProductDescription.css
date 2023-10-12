@@ -1,0 +1,14 @@
+.productImage {
+    width: 400px;
+    display: flex;
+}
+
+.productTitle {
+    display: flex;
+    transform: translate(35%, -1400%);
+}
+.productPrice {
+    color: #268261;
+    display: flex;
+    transform: translate(35%, -1300%);
+}
